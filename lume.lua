@@ -90,8 +90,8 @@ function lume.round(x, increment)
 end
 
 
-function lume.maptoscale (value, inMin, inMax, outMin, outMax)
-  return (input - inMin) * (outMax - outMin) / (inMax - inMin) + outMin
+function lume.maptoscale (x, inMin, inMax, outMin, outMax)
+  return (x - inMin) * (outMax - outMin) / (inMax - inMin) + outMin
 end
 
 
